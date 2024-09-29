@@ -11,7 +11,7 @@
 
 ## Figma
 
-[ACM UCR Website Template Figma Design File](https://www.figma.com/)
+[Skate Club Figma](https://www.figma.com/design/2CF69Dr527yk2dUI3VRHZ1/Skate-Club-UCR?node-id=0-1&node-type=canvas&t=eYeaocmIXmeUWrMm-0)
 
 ## Node.js
 
