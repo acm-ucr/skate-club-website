@@ -9,4 +9,3 @@ const AboutUsText = () => {
 };
 
 export default AboutUsText;
-
