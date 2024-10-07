@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Banco&display=swap');
+
+.gallery-text {
+    font-family: 'Banco';
+    font-size: 108px;
+    font-weight: 500;
+    line-height: 103.25px;
+    text-align: left;
+}
