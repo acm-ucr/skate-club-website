@@ -1,6 +1,33 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import {
+  Inter,
+  Orbitron,
+  Bangers,
+  Baloo_Tamma_2,
+  Baloo_Thambi_2,
+} from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
+
+const orbitron = Orbitron({
+  subsets: ["latin"],
+  variable: "--font-orbitron",
+});
+
+const bangers = Bangers({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-bangers",
+});
+
+const balooTamma = Baloo_Tamma_2({
+  subsets: ["latin"],
+  variable: "--font-baloo-tamma",
+});
+
+const balooThambi = Baloo_Thambi_2({
+  subsets: ["latin"],
+  variable: "--font-baloo-thambi-2",
+});
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +43,9 @@ type LayoutProps = {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`${orbitron.variable} ${bangers.variable} ${balooThambi} ${balooTamma} ${inter.className} flex flex-col justify-between`}
+      >
         <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
       </body>
     </html>
