@@ -1,9 +1,6 @@
-import React from "react";
-import "./styles.css";
-
 const GalleryHeader = () => {
   return (
-    <div className="gallery-text flex w-full flex-row justify-center">
+    <div className="flex w-full flex-row justify-center text-left font-banco text-[108px] font-medium leading-[103.25px]">
       Gallery
     </div>
   );
