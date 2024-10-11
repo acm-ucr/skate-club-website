@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-const Gallery = () => {
+const GalleryHeader = () => {
   return (
     <div className="gallery-text flex w-full flex-row justify-center">
       Gallery
@@ -9,4 +9,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default GalleryHeader;

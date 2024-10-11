@@ -1,4 +1,4 @@
-import Gallery from "@/components/gallery/Gallery";
+import GalleryHeader from "@/components/gallery/GalleryHeader";
 
 const page = () => {
   return (
@@ -7,7 +7,7 @@ const page = () => {
         Gallery Page
       </div>
       <div>
-        <Gallery />
+        <GalleryHeader />
       </div>
     </>
   );
