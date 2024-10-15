@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        banco: ["var(--font-banco)"],
         orbitron: ["var(--font-orbitron)"],
         bangers: ["var(--font-bangers)"],
         balooTamma: ["var(--font-baloo-tamma)"],

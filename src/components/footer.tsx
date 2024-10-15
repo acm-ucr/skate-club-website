@@ -26,14 +26,8 @@ const Footer = () => {
         >
           <Image src={GroupMe} alt="Groupme" />
         </Link>
-        <Link
-          className="flex"
-          target="_blank"
-          href="https://www.instagram.com/skateclubucr/"
-        >
-          <PiInstagramLogoFill
-            style={{ height: "49x", width: "49px", display: "block" }}
-          />
+        <Link target="_blank" href="https://www.instagram.com/skateclubucr/">
+          <PiInstagramLogoFill size={50} />
         </Link>
       </div>
     </div>
