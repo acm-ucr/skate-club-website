@@ -50,7 +50,7 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi} ${balooTamma} ${inter.className} flex flex-col justify-between`}
+        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi} ${balooTamma} ${inter.className} flex flex-col justify-between bg-black`}
       >
         <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
       </body>
