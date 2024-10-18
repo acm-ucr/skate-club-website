@@ -5,4 +5,5 @@ const GalleryHeader = () => {
     </div>
   );
 };
+
 export default GalleryHeader;
