@@ -6,7 +6,13 @@ import {
   Baloo_Tamma_2,
   Baloo_Thambi_2,
 } from "next/font/google";
+import localFont from "next/font/local";
 import { ReactQueryClientProvider } from "@/utils/react-query";
+
+const banco = localFont({
+  src: "../public/fonts/Banco-Regular.ttf",
+  variable: "--font-banco",
+});
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -44,7 +50,7 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`${orbitron.variable} ${bangers.variable} ${balooThambi} ${balooTamma} ${inter.className} flex flex-col justify-between`}
+        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col justify-between bg-black`}
       >
         <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
       </body>
