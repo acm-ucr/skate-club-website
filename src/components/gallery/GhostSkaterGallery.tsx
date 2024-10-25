@@ -5,7 +5,7 @@ import GalleryRamp from "@/public/GalleryRamp.svg";
 
 const GhostSkaterGallery = () => {
   return (
-    <div className="relative flex w-full">
+    <div className="absolute bottom-0 flex w-full">
       <Image src={GalleryRamp} alt="skating ramp" className="w-full" />
       <Image
         src={Ghost}
