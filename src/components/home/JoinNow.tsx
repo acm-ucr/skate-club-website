@@ -1,16 +1,15 @@
-import React from "react";
+import React from 'react';
 
-const JoinNow = () => {
-  const handleClick = () => {
-      alert("Button clicked!");
-  };
-
-  return (
-      <div className="flex w-full flex-row justify-center text-3xl">
-          JoinNow
-          <button onClick={handleClick}>JoinNow</button>
-      </div>
-  );
+const JoinNow = ({ label, onClick }) => {
+    return (
+        <button
+            className="bg-white text-black font-bold italic py-2 px-6 rounded-full hover:bg-gray-100 transition duration-200"
+            style={{ fontFamily: 'fantasy' }}
+            onClick={onClick}
+        >
+            {label}
+        </button>
+    );
 };
 
-export default JoinNow
+export default JoinNow;
