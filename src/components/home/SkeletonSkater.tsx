@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import skeletonSkater from "../../public/images/Skater.svg";
-import ramp from "../../public/images/Ramp.svg";
+import skeletonSkater from "@/public/assets/Skater.svg";
+import ramp from "@/public/assets/Ramp.svg";
 
 export default function SkeletonSkater() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Ghost from "@/public/Ghost.svg";
-import GalleryRamp from "@/public/GalleryRamp.svg";
+import Ghost from "@/public/assets/Ghost.svg";
+import GalleryRamp from "@/public/assets/GalleryRamp.svg";
 
 const GhostSkaterGallery = () => {
   return (
