@@ -10,7 +10,7 @@ import localFont from "next/font/local";
 import { ReactQueryClientProvider } from "@/utils/react-query";
 
 const banco = localFont({
-  src: "../public/fonts/Banco-Regular.ttf",
+  src: "../../public/fonts/Banco-Regular.ttf",
   variable: "--font-banco",
 });
 
