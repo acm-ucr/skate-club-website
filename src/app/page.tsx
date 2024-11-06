@@ -1,21 +1,15 @@
-"use client"; // Add this line if you're using Next.js or a similar framework that uses Server Components by default
+import SkeletonSkater from "@/components/home/SkeletonSkater";
+import Footer from "@/components/footer";
+import JoinNow from "@/components/home/JoinNow";
 
-import React from 'react';
-
-function Home() {
-    function handleClick() {
-        alert('Button clicked!');
-    }
-
-    return (
-        <button
-            className="bg-white text-black font-bold italic py-2 px-6 rounded-full hover:bg-gray-100 transition duration-200"
-            style={{ fontFamily: 'fantasy' }}
-            onClick={handleClick}
-        >
-            Join Now
-        </button>
-    );
-}
+const Home = () => {
+  return (
+    <div className="flex h-screen w-screen items-center justify-center">
+      <JoinNow />
+      {/*<SkeletonSkater /*/}
+      {/*<Footer >*/}
+    </div>
+  );
+};
 
 export default Home;
