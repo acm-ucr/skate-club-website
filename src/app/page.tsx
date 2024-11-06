@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
       <JoinNow />
-      {/*<SkeletonSkater /*/}
-      {/*<Footer >*/}
+      <SkeletonSkater />
+      <Footer />
     </div>
   );
 };
