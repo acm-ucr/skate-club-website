@@ -1,7 +1,7 @@
 export const items = [
   {
     name: "BOARD",
-    link: "/",
+    link: "/board",
   },
   {
     name: "ABOUT US",

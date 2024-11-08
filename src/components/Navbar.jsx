@@ -17,7 +17,7 @@ const Navigation = () => {
       collapseOnSelect
       sticky="top"
       expand="lg"
-      className="flex w-full items-center justify-between bg-black p-3"
+      className="flex w-full items-center text-lg justify-between bg-black p-3"
     >
       <Navbar.Brand className="p-0">
         <Link
@@ -42,7 +42,7 @@ const Navigation = () => {
         id="basic-navbar-nav"
         className="w-screen items-center justify-center"
       >
-        <Nav className="flex items-center gap-10 font-banco no-underline">
+        <Nav className="flex items-center justify-center font-banco no-underline">
           {items.map((item, index) => (
             <Nav.Link
               as={Link}
@@ -50,7 +50,7 @@ const Navigation = () => {
               href={item.link}
               style={{ fontSize: "3rem" }}
               onClick={() => setSelected(item.name)}
-              className={`font-banco text-sm font-light tracking-widest text-white hover:underline lg:text-3xl ${
+              className={`font-banco flex justify-center w-full font-light tracking-widest text-white hover:underline lg:text-3xl ${
                 selected === item.name ? "underline" : "no-underline"
               }`}
             >
