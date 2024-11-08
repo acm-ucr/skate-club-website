@@ -3,13 +3,13 @@ import React from "react";
 const AboutUsText = () => {
   return (
     <div className="mt-6 flex w-full place-content-center text-xl">
-      <p className="  w-3/4 md:w-2/3 bg-black text-center font-balooTamma font-bold text-white">
+      <p className="w-3/4 bg-black text-center font-balooTamma font-bold text-white md:w-2/3">
         Skateboarding club at UC Riverside is an official, university-recognized
         student organization that has existed for nearly 10 years. Its main
         purpose is fairly obvious: to foster a skate community at UC Riverside!
         One long-lasting feature of Skateclub is its extremely open-door policy
         to anyone interested in joining. Beginners are welcome, no fees are
-        mandatory, and there  are never any pressures to perform certain duties
+        mandatory, and there are never any pressures to perform certain duties
         for the club – just come, skate, and connect!
         <br />
         <br />
