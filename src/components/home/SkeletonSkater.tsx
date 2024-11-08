@@ -9,12 +9,12 @@ export default function SkeletonSkater() {
       <Image
         src={skeletonSkater}
         alt="skating skeleton"
-        className="rotate-315 size-1/2 bottom-0"
+        className="rotate-315 bottom-0 size-1/2"
       />
       <Image
         src={ramp}
         alt="skating ramp"
-        className=" bottom-0 w-full size-full object-center"
+        className="bottom-0 size-full w-full object-center"
       />
     </div>
   );

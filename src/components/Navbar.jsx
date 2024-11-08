@@ -17,7 +17,7 @@ const Navigation = () => {
       collapseOnSelect
       sticky="top"
       expand="lg"
-      className="flex w-full items-center text-lg justify-between bg-black p-3"
+      className="flex w-full items-center justify-between bg-black p-0 text-lg"
     >
       <Navbar.Brand className="p-0">
         <Link
@@ -28,7 +28,7 @@ const Navigation = () => {
           <Image
             src={SkateLogo}
             alt="Skate-Logo"
-            width={300}
+            width={325}
             height={100}
             className="m-3"
           />
@@ -50,7 +50,7 @@ const Navigation = () => {
               href={item.link}
               style={{ fontSize: "3rem" }}
               onClick={() => setSelected(item.name)}
-              className={`font-banco flex justify-center w-full font-light tracking-widest text-white hover:underline lg:text-3xl ${
+              className={`flex w-full justify-center font-banco font-light tracking-widest text-white hover:underline lg:text-3xl ${
                 selected === item.name ? "underline" : "no-underline"
               }`}
             >
