@@ -8,6 +8,7 @@ import {
 } from "next/font/google";
 import localFont from "next/font/local";
 import { ReactQueryClientProvider } from "@/utils/react-query";
+import Footer from "@/components/footer";
 
 const banco = localFont({
   src: "../../public/fonts/Banco-Regular.ttf",
@@ -50,9 +51,12 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col justify-between bg-black`}
+        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col bg-black`}
       >
-        <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
+        <div className="flex w-full flex-col items-center justify-center text-white">
+          <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
+        </div>
+        <Footer />
       </body>
     </html>
   );

@@ -1,4 +1,3 @@
-//import AboutUsText from "@/components/about/AboutUsText";
 import AboutUsText from "@/components/about/AboutUsText";
 
 const page = () => {
