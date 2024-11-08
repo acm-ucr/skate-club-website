@@ -5,7 +5,7 @@ import ramp from "@/public/assets/Ramp.svg";
 
 export default function SkeletonSkater() {
   return (
-    <div className="flex h-full w-full flex-col items-center">
+    <div className="flex h-full w-full flex-col items-center bottom-0">
       <Image
         src={skeletonSkater}
         alt="skating skeleton"
