@@ -11,7 +11,6 @@ import { ReactQueryClientProvider } from "@/utils/react-query";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
 
-
 const banco = localFont({
   src: "../../public/fonts/Banco-Regular.ttf",
   variable: "--font-banco",
@@ -56,7 +55,7 @@ export default function RootLayout({ children }: LayoutProps) {
         className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col bg-black`}
       >
         <Navbar />
-        <div className="flex w-full flex-col items-center justify-center ">
+        <div className="flex w-full flex-col items-center justify-center">
           <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
         </div>
         <Footer />
