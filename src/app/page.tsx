@@ -1,5 +1,4 @@
 import SkeletonSkater from "@/components/home/SkeletonSkater";
-//import Footer from "@/components/footer";
 
 const Home = () => {
   return (
@@ -8,7 +7,6 @@ const Home = () => {
         {" "}
         <SkeletonSkater />{" "}
       </div>
-    </div>
   );
 };
 

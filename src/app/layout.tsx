@@ -9,9 +9,11 @@ import {
 import localFont from "next/font/local";
 import { ReactQueryClientProvider } from "@/utils/react-query";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/footer";
+
 
 const banco = localFont({
-  src: "../public/fonts/Banco-Regular.ttf",
+  src: "../../public/fonts/Banco-Regular.ttf",
   variable: "--font-banco",
 });
 
@@ -51,12 +53,13 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col justify-between bg-black`}
+        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col bg-black`}
       >
         <Navbar />
-        <div className="mt-20 flex w-full flex-col items-center justify-center">
+        <div className="flex w-full flex-col items-center justify-center ">
           <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
         </div>
+        <Footer />
       </body>
     </html>
   );
