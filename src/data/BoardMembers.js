@@ -1,5 +1,5 @@
-import Alex from "@/public/board/ALEX.webp"
-import Ben from "@/public/board/BEN.webp"
+import Alex from "@/public/board/ALEX.webp";
+import Ben from "@/public/board/BEN.webp";
 import Charles from "@/public/board/CHARLESS.webp";
 import Evan from "@/public/board/EVAN.webp";
 import Grace from "@/public/board/GRACE.webp";
@@ -137,7 +137,7 @@ export const Members = [
   },
   {
     image: Nico,
-   // Fill in the rest here
+    // Fill in the rest here
 
     // position: string;
     // name: string;
