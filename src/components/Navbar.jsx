@@ -7,7 +7,7 @@ import SkateLogo from "../public/Skate_LOGO.webp";
 import Nav from "react-bootstrap/Nav";
 import Link from "next/link";
 import { items } from "../data/Nav.js";
-//import { FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 const Navigation = () => {
   const [selected, setSelected] = useState("");
@@ -15,31 +15,33 @@ const Navigation = () => {
   return (
     <Navbar
       collapseOnSelect
-      sticky="top"
-      expand="lg"
+      fixed="top"
+      expand="md"
       className="flex w-full items-center justify-between bg-black p-0 text-lg"
     >
       <Navbar.Brand className="p-0">
         <Link
           href="/"
           onClick={() => setSelected("")}
-          className="flex items-center"
+          className="flex flex-row items-center"
         >
           <Image
             src={SkateLogo}
             alt="Skate-Logo"
-            width={325}
+            width={100}
             height={100}
             className="m-3"
           />
         </Link>
       </Navbar.Brand>
 
-      <Navbar.Toggle className="border-0">
-        {/* <FaBars className="text-white text-xl" /> */}
+      {/* Navbar Toggle with hamburger icon */}
+      <Navbar.Toggle className="border-0" aria-controls="navbar-nav">
+        <FaBars className="block text-xl text-white md:hidden" />
       </Navbar.Toggle>
+
       <Navbar.Collapse
-        id="basic-navbar-nav"
+        id="navbar-nav"
         className="w-screen items-center justify-center"
       >
         <Nav className="flex items-center justify-center font-banco no-underline">
