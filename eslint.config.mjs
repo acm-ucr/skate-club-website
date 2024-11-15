@@ -27,13 +27,16 @@ export default [
     },
     parser: tsParser,
     parserOptions: {
-      project: './tsconfig.json',
+      project: "./tsconfig.json",
     },
   },
   {
     rules: {
       "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/no-unused-expressions": ["error", { "allowShortCircuit": true }],
+      "@typescript-eslint/no-unused-expressions": [
+        "error",
+        { allowShortCircuit: true },
+      ],
     },
   },
 ];
