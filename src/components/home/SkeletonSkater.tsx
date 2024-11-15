@@ -14,7 +14,7 @@ export default function SkeletonSkater() {
       <Image
         src={ramp}
         alt="skating ramp"
-        className="absolute bottom-0 w-full object-cover object-center"
+        className="bottom-0 size-full w-full object-center"
       />
     </div>
   );
