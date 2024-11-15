@@ -5,8 +5,8 @@ import GalleryRamp from "@/public/assets/GalleryRamp.svg";
 
 const GhostSkaterGallery = () => {
   return (
-    <div className="flex flex-col-reverse w-full items-center">
-      <Image src={GalleryRamp} alt="skating ramp" className="w-full -mt-40" />
+    <div className="flex w-full flex-col-reverse items-center">
+      <Image src={GalleryRamp} alt="skating ramp" className="-mt-40 w-full" />
       <div className="flex">
         <Image src={Ghost} alt="skating ghost" className="size-full" />
       </div>
