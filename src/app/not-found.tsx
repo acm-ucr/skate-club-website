@@ -35,7 +35,7 @@ export default function NotFound() {
             type: "spring",
             stiffness: 250,
           }}
-          className="rounded-full bg-white px-6 py-3 font-semibold text-black"
+          className="inline-block rounded-full bg-white px-6 py-3 font-semibold text-black"
         >
           Go back home
         </motion.a>
