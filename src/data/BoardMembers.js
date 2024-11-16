@@ -7,7 +7,6 @@ import Griffin from "@/public/board/GRIFFIN.webp";
 import Harry from "@/public/board/HARRY.webp";
 import Jeremy from "@/public/board/JERM.webp";
 import Madi from "@/public/board/MADI.webp";
-// import Nico from "@/public/board/NICO.webp";
 import Owen from "@/public/board/OWEN.webp";
 import Phil from "@/public/board/PHIL.webp";
 import Radwan from "@/public/board/RADWAN.webp";
@@ -32,7 +31,7 @@ export const Members = [
     name: "Ben",
     year: 2,
     major: "Psychology & History",
-    yearsSkating: 2,
+    yearsSkating: "2",
     favoriteSkater: "Jeff Carlyle",
     boardImage: Ben,
 
@@ -67,7 +66,7 @@ export const Members = [
     name: "Grace",
     year: 4,
     major: "Geology",
-    yearsSkating: 1.5,
+    yearsSkating: "1.5",
     favoriteSkater: "Andy Anderson",
     boardImage: Grace,
     key: 5,
@@ -89,7 +88,7 @@ export const Members = [
     name: "Harry",
     year: 3,
     major: "Theatre, Film, & DP",
-    yearsSkating: 1,
+    yearsSkating: "1",
     favoriteSkater: "Ishod Wair",
     boardImage: Harry,
     key: 10,
