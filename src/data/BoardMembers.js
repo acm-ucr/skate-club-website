@@ -5,10 +5,10 @@ import Evan from "@/public/board/EVAN.webp";
 import Grace from "@/public/board/GRACE.webp";
 import Griffin from "@/public/board/GRIFFIN.webp";
 import Harry from "@/public/board/HARRY.webp";
-import Jeremey from "@/public/board/JERM.webp";
+import Jeremy from "@/public/board/JERM.webp";
 import Madi from "@/public/board/MADI.webp";
-import Nico from "@/public/board/NICO.webp";
-import Owen from "@/public/board/ulises.webp";
+// import Nico from "@/public/board/NICO.webp";
+import Owen from "@/public/board/OWEN.webp";
 import Phil from "@/public/board/PHIL.webp";
 import Radwan from "@/public/board/RADWAN.webp";
 import Savian from "@/public/board/SAVIAN.webp";
@@ -16,188 +16,148 @@ import Savian from "@/public/board/SAVIAN.webp";
 export const Members = [
   {
     image: Alex,
+    position: "Media Relations",
+    name: "Alex",
+    year: 2,
+    major: "Biology",
+    yearsSkating: "2",
+    favoriteSkater: "Hyun Kummer",
+    boardImage: Alex,
 
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
-
-    key: 1,
+    key: 7,
   },
   {
     image: Ben,
-    // Fill in the rest here
+    position: "Secretary",
+    name: "Ben",
+    year: 2,
+    major: "Psychology & History",
+    yearsSkating: 2,
+    favoriteSkater: "Jeff Carlyle",
+    boardImage: Ben,
 
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
+    key: 4,
+  },
+  {
+    image: Charles,
+    position: "Vice President",
+    name: "Charles",
+    year: 2,
+    major: "Undeclared",
+    yearsSkating: "7",
+    favoriteSkater: "Tfunk",
+    boardImage: Charles,
 
     key: 2,
   },
   {
-    image: Charles,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
-
-    key: 3,
-  },
-  {
     image: Evan,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
-    key: 4,
+    position: "",
+    name: "Evan",
+    year: 3,
+    major: "Business",
+    yearsSkating: "1",
+    favoriteSkater: "Rodney Mullen",
+    boardImage: Evan,
+    key: 9,
   },
   {
     image: Grace,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
+    position: "Treasurer",
+    name: "Grace",
+    year: 4,
+    major: "Geology",
+    yearsSkating: 1.5,
+    favoriteSkater: "Andy Anderson",
+    boardImage: Grace,
     key: 5,
   },
   {
     image: Griffin,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
-    key: 6,
-  },
-  {
-    image: Harry,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
-    key: 7,
-  },
-  {
-    image: Jeremey,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
+    position: "Media Relations",
+    name: "Griffin",
+    year: 2,
+    major: "Media Culture Studies",
+    yearsSkating: "3",
+    favoriteSkater: "Chris Milic",
+    boardImage: Griffin,
     key: 8,
   },
   {
-    image: Madi,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
-    key: 9,
-  },
-  {
-    image: Nico,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
+    image: Harry,
+    position: "",
+    name: "Harry",
+    year: 3,
+    major: "Theatre, Film, & DP",
+    yearsSkating: 1,
+    favoriteSkater: "Ishod Wair",
+    boardImage: Harry,
     key: 10,
   },
   {
-    image: Owen,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
+    image: Jeremy,
+    position: "",
+    name: "Jeremy",
+    year: 2,
+    major: "Undeclared",
+    yearsSkating: "5",
+    favoriteSkater: "All The Homies",
+    boardImage: Jeremy,
     key: 11,
   },
   {
+    image: Madi,
+    position: "Event Coordinator",
+    name: "Madi",
+    year: 2,
+    major: "Pre-Business",
+    yearsSkating: '"Like 2 Days"',
+    favoriteSkater: "Kader Sylla",
+    boardImage: Madi,
+    key: 6,
+  },
+  {
+    image: Owen,
+    position: "Vice President",
+    name: "Owen",
+    year: 3,
+    major: "Biochemistry",
+    yearsSkating: "7",
+    favoriteSkater: "Ryan Ruegg",
+    boardImage: Owen,
+    key: 3,
+  },
+  {
     image: Phil,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
+    position: "",
+    name: "Phil",
+    year: 3,
+    major: "Business Administration",
+    yearsSkating: "2",
+    favoriteSkater: "Zach Saraceno",
+    boardImage: Phil,
     key: 12,
   },
   {
     image: Radwan,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
+    position: "",
+    name: "Radwan",
+    year: 3,
+    major: "Education",
+    yearsSkating: "5.5",
+    favoriteSkater: "Kyonosuke",
+    boardImage: Radwan,
     key: 13,
   },
   {
     image: Savian,
-    // Fill in the rest here
-
-    // position: string;
-    // name: string;
-    // year: number;
-    // major: string;
-    // yearsSkating: number;
-    // favoriteSkater: string;
-    // boardImage: StaticImageData;
-    key: 14,
+    position: "President",
+    name: "Savian",
+    year: 4,
+    major: "Music",
+    yearsSkating: "10",
+    favoriteSkater: "Jarret Berry",
+    boardImage: Savian,
+    key: 1,
   },
 ];

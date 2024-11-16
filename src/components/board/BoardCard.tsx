@@ -6,7 +6,7 @@ type Props = {
   name: string;
   year: number;
   major: string;
-  yearsSkating: number;
+  yearsSkating: string;
   favoriteSkater: string;
   boardImage: StaticImageData;
 };
@@ -31,9 +31,9 @@ const BoardCard: React.FC<Props> = ({
           className="rounded-md"
         />
       </div>
-      <div className="relative mt-4 text-left text-sm">
-        <div className="text-2xl font-bold">{name}</div>
-        <div>{position}</div>
+      <div className="relative mt-1 text-left font-bangers text-sm">
+        <div className="text-3xl font-bold">{name}</div>
+        <div className="text-lg">{position}</div>
         <div>Year: {year}</div>
         <div>Major: {major}</div>
         <div>Years Skating: {yearsSkating}</div>
