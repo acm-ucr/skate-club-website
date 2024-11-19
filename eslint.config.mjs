@@ -33,6 +33,5 @@ export default [
         { allowShortCircuit: true, allowTernary: true },
       ],
     },
-    
   },
 ];
