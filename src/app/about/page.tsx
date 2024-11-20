@@ -1,8 +1,10 @@
 import AboutUsText from "@/components/about/AboutUsText";
+import AboutUs from "@/components/about/AboutUs";
 
 const page = () => {
   return (
-    <div className="flex w-full flex-col gap-10 py-20">
+    <div className="flex h-full w-full flex-col gap-10 py-20">
+      <AboutUs />
       <AboutUsText />
     </div>
   );
