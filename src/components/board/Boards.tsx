@@ -6,7 +6,7 @@ const Boards = () => {
   const sortedMembers = [...Members].sort((a, b) => a.key - b.key);
 
   return (
-    <div className="grid grid-cols-2 gap-3 px-20 pb-10 md:grid-cols-3 md:gap-10 md:px-40 lg:grid-cols-4 lg:px-60">
+    <div className="grid w-4/5 grid-cols-2 items-center gap-3 pb-10 lg:h-full lg:w-4/5 lg:grid-cols-4">
       {sortedMembers.map((member) => (
         <BoardCard
           position={member.position}
