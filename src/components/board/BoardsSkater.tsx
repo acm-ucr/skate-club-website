@@ -5,7 +5,7 @@ import Droopy from "@/public/assets/Droopy.svg";
 
 export default function BoardsSkater() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full pt-56 lg:h-96 lg:pt-[40%]">
       <Image
         src={Ramp}
         alt="skating ramp"
