@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUsText = () => {
   return (
-    <div className="mt-6 flex w-full place-content-center text-xl">
+    <div className="mt-6 flex w-full place-content-center text-3xl">
       <p className="w-3/4 bg-black text-center font-balooTamma font-bold text-white md:w-2/3">
         Skateboarding club at UC Riverside is an official, university-recognized
         student organization that has existed for nearly 10 years. Its main
