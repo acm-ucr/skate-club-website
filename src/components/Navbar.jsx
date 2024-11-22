@@ -15,11 +15,11 @@ const Navigation = () => {
   return (
     <Navbar
       collapseOnSelect
-      fixed="top"
-      expand="md"
+      sticky="top"
+      expand="xl"
       className="flex w-full items-center justify-between bg-black p-0 text-lg"
     >
-      <Navbar.Brand className="p-0">
+      <Navbar.Brand className="flex items-center p-0 sm:justify-between md:w-auto">
         <Link
           href="/"
           onClick={() => setSelected("")}
@@ -28,31 +28,32 @@ const Navigation = () => {
           <Image
             src={SkateLogo}
             alt="Skate-Logo"
-            width={100}
-            height={100}
-            className="m-3"
+            width={250}
+            height={50}
+            //className = ""
+            className="w-36 md:w-48 lg:w-56"
           />
         </Link>
       </Navbar.Brand>
 
       {/* Navbar Toggle with hamburger icon */}
       <Navbar.Toggle className="border-0" aria-controls="navbar-nav">
-        <FaBars className="block text-xl text-white md:hidden" />
+        <FaBars className="m-4 block flex-row text-3xl text-white lg:hidden" />
       </Navbar.Toggle>
 
       <Navbar.Collapse
         id="navbar-nav"
-        className="w-screen items-center justify-center"
+        className="w-full items-center justify-center"
       >
-        <Nav className="flex items-center justify-center font-banco no-underline">
+        <Nav className="flex w-full items-center justify-center font-banco no-underline">
           {items.map((item, index) => (
             <Nav.Link
               as={Link}
               key={index}
               href={item.link}
-              style={{ fontSize: "3rem" }}
+              style={{ fontSize: "2rem" }}
               onClick={() => setSelected(item.name)}
-              className={`flex w-full justify-center font-banco font-light tracking-widest text-white hover:underline lg:text-3xl ${
+              className={`mx-5 flex w-full justify-center whitespace-nowrap font-banco font-light tracking-widest text-white hover:underline ${
                 selected === item.name ? "underline" : "no-underline"
               }`}
             >
