@@ -30,7 +30,6 @@ const Navigation = () => {
             alt="Skate-Logo"
             width={250}
             height={50}
-            //className = ""
             className="w-36 md:w-48 lg:w-56"
           />
         </Link>
