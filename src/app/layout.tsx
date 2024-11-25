@@ -1,4 +1,6 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
+
 import {
   Inter,
   Orbitron,
@@ -8,6 +10,8 @@ import {
 } from "next/font/google";
 import localFont from "next/font/local";
 import { ReactQueryClientProvider } from "@/utils/react-query";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/footer";
 
 const banco = localFont({
   src: "../../public/fonts/Banco-Regular.ttf",
@@ -50,9 +54,13 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col justify-between bg-black`}
+        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col bg-black`}
       >
-        <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
+        <Navbar />
+        <div className="mb-60 flex w-full flex-col items-center justify-center">
+          <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
+        </div>
+        <Footer />
       </body>
     </html>
   );

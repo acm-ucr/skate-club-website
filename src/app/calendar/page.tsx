@@ -1,12 +1,13 @@
 import SkeletonSkatingCalendar from "@/components/calendar/SkeletonSkatingCalendar";
-import CalendarThingy from "@/components/calendar/CalendarThingy";
+import SkateCalendar from "@/components/calendar/SkateCalendar";
+import CalendarHeader from "@/components/calendar/CalendarHeader";
 
 const page = () => {
   return (
     <div className="flex w-full flex-col gap-10">
-      <CalendarThingy />
+      <CalendarHeader />
+      <SkateCalendar />
       <SkeletonSkatingCalendar />
-      Events Page
     </div>
   );
 };

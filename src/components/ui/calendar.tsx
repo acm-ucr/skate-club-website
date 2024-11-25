@@ -33,7 +33,7 @@ function Calendar({
         months:
           "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0 text-white text-6xl",
         month: "space-y-4",
-        caption: "flex justify-center pt-1 relative items-center",
+        caption: "flex justify-center pt-1 mb-16 relative items-center",
         caption_label: "text-6xl font-light font-banco",
         nav: "space-x-1 flex items-center",
         nav_button: cn(
@@ -45,7 +45,7 @@ function Calendar({
         table: "w-full border-collapse space-y-0 justify-center",
         head_row: "flex justify-center",
         head_cell:
-          "border border-white w-32 font-white font-normal text-4xl text-[0.8rem] font-bangers",
+          "border border-white w-32 font-white font-normal text-[1.6rem] font-bangers",
         row: "flex w-full mt-0",
         cell: cn(
           "h-32 w-32 border border-white relative text-9xl p-0 justify-center text-base focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-accent [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected].day-range-end)]:rounded-r-md",
