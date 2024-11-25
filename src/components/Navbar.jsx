@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Navbar from "react-bootstrap/Navbar";
-import SkateLogo from "../public/Skate_LOGO.webp";
+import SkateLogo from "../../public/assets/Skate_LOGO.webp";
 import Nav from "react-bootstrap/Nav";
 import Link from "next/link";
 import { items } from "../data/Nav.js";

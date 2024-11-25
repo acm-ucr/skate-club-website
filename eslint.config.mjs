@@ -32,6 +32,7 @@ export default [
         "error",
         { allowShortCircuit: true, allowTernary: true },
       ],
+      "@typescript-eslint/no-require-imports": "off",
     },
   },
 ];
