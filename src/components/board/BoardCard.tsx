@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import Image, { StaticImageData } from "next/image";
+import { motion } from "framer-motion";
 
 type Props = {
   position: string;
@@ -9,6 +11,11 @@ type Props = {
   yearsSkating: string;
   favoriteSkater: string;
   boardImage: StaticImageData;
+};
+
+const fadeInVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 },
 };
 
 const BoardCard: React.FC<Props> = ({
@@ -21,7 +28,19 @@ const BoardCard: React.FC<Props> = ({
   boardImage,
 }) => {
   return (
-    <div className="relative flex h-auto w-full flex-col rounded-md bg-[#d9d9d9] p-3">
+    <motion.div
+      className="relative flex h-auto w-full flex-col rounded-md bg-[#d9d9d9] p-3"
+      variants={fadeInVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      whileHover={{
+        scale: 1.1,
+        zIndex: 10,
+        transition: { duration: 0.2 },
+      }}
+    >
       <Image
         src={boardImage}
         alt={`Photo of ${name}, ${position}`}
@@ -42,7 +61,7 @@ const BoardCard: React.FC<Props> = ({
           Favorite Skater: {favoriteSkater}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
