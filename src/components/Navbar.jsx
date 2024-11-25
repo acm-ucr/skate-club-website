@@ -44,15 +44,17 @@ const Navigation = () => {
         id="navbar-nav"
         className="w-full items-center justify-center"
       >
-        <Nav className="flex w-full items-center justify-center font-banco no-underline">
+        <Nav className="flex w-full items-center justify-center no-underline">
           {items.map((item, index) => (
             <Nav.Link
               as={Link}
               key={index}
               href={item.link}
-              style={{ fontSize: "2rem" }}
+              style={{
+                fontSize: "clamp(1.8rem, 5vw, 2.8rem)",
+              }}
               onClick={() => setSelected(item.name)}
-              className={`mx-5 flex w-full justify-center whitespace-nowrap font-banco font-light tracking-widest text-white hover:underline ${
+              className={`mx-5 flex w-full justify-center whitespace-nowrap font-banco text-2xl font-light tracking-widest text-white hover:underline ${
                 selected === item.name ? "underline" : "no-underline"
               }`}
             >
