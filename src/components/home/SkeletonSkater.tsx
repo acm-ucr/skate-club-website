@@ -9,7 +9,7 @@ export default function SkeletonSkater() {
       <Image
         src={skeletonSkater}
         alt="skating skeleton"
-        className="bottom-0 size-1/2 -translate-x-14 -translate-y-12 rotate-2 md:bottom-0 md:-translate-x-[45%] md:translate-y-[43%]"
+        className="bottom-0 size-[27%] -translate-x-14 -translate-y-12 rotate-2 md:bottom-0 md:-translate-x-[85%] md:translate-y-[43%]"
       />
       <Image
         src={ramp}
