@@ -1,9 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Scotty from "@/public/pages/Scotty.png";
-import GroupPhoto from "@/public/pages/GroupPhoto.png";
-import BoardPhoto from "@/public/pages/BoardPhoto2.png";
+import Scotty from "@/public/pages/Scotty.webp";
+import GroupPhoto from "@/public/pages/GroupPhoto.webp";
+import BoardPhoto from "@/public/pages/BoardPhoto2.webp";
 
 const HomeImages = () => {
   return (
