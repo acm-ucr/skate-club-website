@@ -54,10 +54,10 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col bg-black`}
+        className={`${banco.variable} ${orbitron.variable} ${bangers.variable} ${balooThambi.variable} ${balooTamma.variable} ${inter.className} flex flex-col justify-between bg-black`}
       >
         <Navbar />
-        <div className="mb-60 flex w-full flex-col items-center justify-center">
+        <div className="flex w-full flex-col items-center justify-center">
           <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
         </div>
         <Footer />
