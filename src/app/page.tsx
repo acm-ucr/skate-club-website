@@ -1,7 +1,13 @@
+import SkeletonSkater from "@/components/home/SkeletonSkater";
+import HomeImages from "@/components/home/HomeImages";
+import HomeHeader from "@/components/home/HomeHeader";
+
 const Home = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Hello World
+    <div className="bottom-0 my-10 mt-10 flex h-full w-full flex-col items-center justify-center">
+      <HomeHeader />
+      <HomeImages />
+      <SkeletonSkater />
     </div>
   );
 };
