@@ -3,7 +3,7 @@ import Link from "next/link";
 import { GroupMe } from "@/public/assets/footer";
 import { PiInstagramLogoFill } from "react-icons/pi";
 
-import { Bangers } from "@next/font/google";
+import { Bangers } from "next/font/google";
 
 const bangers = Bangers({
   weight: "400",
