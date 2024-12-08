@@ -8,7 +8,7 @@ import BoardPhoto from "@/public/pages/BoardPhoto2.webp";
 const HomeImages = () => {
   return (
     <motion.div
-      className="flex h-full w-4/5 flex-row items-center gap-2"
+      className="flex h-full w-4/5 flex-col items-center gap-2 md:flex-row"
       initial="hidden"
       animate="visible"
       variants={{
@@ -27,7 +27,7 @@ const HomeImages = () => {
       </motion.div>
 
       <motion.div
-        className="flex h-full w-[70%] flex-col gap-2"
+        className="flex h-full w-full flex-col items-center gap-2 md:w-[70%]"
         variants={{
           hidden: { opacity: 0 },
           visible: { opacity: 1, transition: { staggerChildren: 0.3 } },
