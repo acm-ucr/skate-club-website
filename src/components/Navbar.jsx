@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Navbar from "react-bootstrap/Navbar";
 import SkateLogo from "../../public/assets/Skate_LOGO.webp";
@@ -10,7 +10,32 @@ import { items } from "../data/Nav.js";
 import { FaBars } from "react-icons/fa";
 
 const Navigation = () => {
+  const [imageSize, setImageSize] = useState({ width: 150, height: 50 });
   const [selected, setSelected] = useState("");
+
+  useEffect(() => {
+    const updateImageSize = () => {
+      if (typeof window !== "undefined") {
+        // eslint-disable-next-line no-undef
+        const width = window.innerWidth;
+        if (width < 768) {
+          setImageSize({ width: 150, height: 30 });
+        } else if (width < 1024) {
+          setImageSize({ width: 200, height: 40 });
+        } else {
+          setImageSize({ width: 300, height: 50 });
+        }
+      }
+    };
+
+    updateImageSize();
+
+    // eslint-disable-next-line no-undef
+    window.addEventListener("resize", updateImageSize);
+
+    // eslint-disable-next-line no-undef
+    return () => window.removeEventListener("resize", updateImageSize);
+  }, []);
 
   return (
     <Navbar
@@ -28,14 +53,13 @@ const Navigation = () => {
           <Image
             src={SkateLogo}
             alt="Skate-Logo"
-            width={250}
-            height={50}
-            className="w-36 md:w-48 lg:w-56"
+            width={imageSize.width}
+            height={imageSize.height}
+            className="h-auto"
           />
         </Link>
       </Navbar.Brand>
 
-      {/* Navbar Toggle with hamburger icon */}
       <Navbar.Toggle className="border-0" aria-controls="navbar-nav">
         <FaBars className="m-4 block flex-row text-3xl text-white lg:hidden" />
       </Navbar.Toggle>
