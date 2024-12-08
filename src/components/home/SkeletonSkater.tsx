@@ -5,16 +5,16 @@ import ramp from "@/public/assets/Ramp.svg";
 
 export default function SkeletonSkater() {
   return (
-    <div className="bottom-0 flex h-full w-full flex-col items-center">
+    <div className="flex h-full w-full translate-y-[21%] flex-col items-center md:translate-y-[15%]">
       <Image
         src={skeletonSkater}
         alt="skating skeleton"
-        className="bottom-0 size-[27%] -translate-x-14 -translate-y-12 rotate-2 md:bottom-0 md:-translate-x-[85%] md:translate-y-[43%]"
+        className="size-[35%] -translate-x-24 translate-y-10 rotate-2 md:bottom-0 md:size-[27%] md:-translate-x-[85%] md:translate-y-[43%]"
       />
       <Image
         src={ramp}
         alt="skating ramp"
-        className="bottom-0 size-full w-full object-center"
+        className="size-full w-full object-center"
       />
     </div>
   );
