@@ -9,7 +9,7 @@ const GhostSkaterGallery = () => {
       <Image
         src={Ghost}
         alt="skating ghost"
-        className="bottom-10 z-10 size-[25%] -rotate-12 translate-y-[30%] transform object-center lg:-rotate-12 lg:bottom-56 lg:size-[15%] lg:translate-y-[47%]"
+        className="bottom-10 z-10 size-[25%] translate-y-[30%] -rotate-12 transform object-center lg:bottom-56 lg:size-[15%] lg:translate-y-[47%] lg:-rotate-12"
       />
       <Image
         src={GalleryRamp}
@@ -21,10 +21,3 @@ const GhostSkaterGallery = () => {
 };
 
 export default GhostSkaterGallery;
-
-
-
-
-
-
-
