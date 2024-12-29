@@ -6,9 +6,9 @@ import GhostSkaterGallery from "@/components/gallery/GhostSkaterGallery";
 
 // Importing all images
 import image1 from "@/public/gallery/image1.webp";
-import image2 from "@/public/gallery/image2.JPG";
-import image3 from "@/public/gallery/image3.JPG";
-import image4 from "@/public/gallery/image4.JPG";
+// import image2 from "@/public/gallery/image2.JPG";
+// import image3 from "@/public/gallery/image3.JPG";
+// import image4 from "@/public/gallery/image4.JPG";
 import image8 from "@/public/gallery/image8.webp";
 import image9 from "@/public/gallery/image9.webp";
 import image10 from "@/public/gallery/image10.webp";
@@ -16,125 +16,125 @@ import image11 from "@/public/gallery/image11.webp";
 import image12 from "@/public/gallery/image12.webp";
 import image13 from "@/public/gallery/image13.webp";
 import image16 from "@/public/gallery/image16.webp";
-import image17 from "@/public/gallery/image17.JPG";
+// import image17 from "@/public/gallery/image17.JPG";
 import image18 from "@/public/gallery/image18.webp";
-import image19 from "@/public/gallery/image19.JPG";
+// import image19 from "@/public/gallery/image19.JPG";
 import image20 from "@/public/gallery/image20.webp";
-import image21 from "@/public/gallery/image21.JPG";
+// import image21 from "@/public/gallery/image21.JPG";
 import image22 from "@/public/gallery/image22.webp";
-import image23 from "@/public/gallery/image23.JPG";
-import image24 from "@/public/gallery/image24.JPG";
+// import image23 from "@/public/gallery/image23.JPG";
+// import image24 from "@/public/gallery/image24.JPG";
 import image25 from "@/public/gallery/image25.webp";
 import image26 from "@/public/gallery/image26.webp";
-import image27 from "@/public/gallery/image27.JPG";
-import image28 from "@/public/gallery/image28.JPG";
+// import image27 from "@/public/gallery/image27.JPG";
+// import image28 from "@/public/gallery/image28.JPG";
 import image29 from "@/public/gallery/image29.webp";
 import image30 from "@/public/gallery/image30.webp";
-import image31 from "@/public/gallery/image31.JPG";
-import image32 from "@/public/gallery/image32.JPG";
+// import image31 from "@/public/gallery/image31.JPG";
+// import image32 from "@/public/gallery/image32.JPG";
 import image33 from "@/public/gallery/image33.webp";
-import image34 from "@/public/gallery/image34.JPG";
+// import image34 from "@/public/gallery/image34.JPG";
 import image35 from "@/public/gallery/image35.webp";
-import image36 from "@/public/gallery/image36.JPG";
+// import image36 from "@/public/gallery/image36.JPG";
 import image37 from "@/public/gallery/image37.webp";
-import image38 from "@/public/gallery/image38.JPG";
+// import image38 from "@/public/gallery/image38.JPG";
 import image39 from "@/public/gallery/image39.webp";
-import image40 from "@/public/gallery/image40.JPG";
-import image41 from "@/public/gallery/image41.JPG";
+// import image40 from "@/public/gallery/image40.JPG";
+// import image41 from "@/public/gallery/image41.JPG";
 import image42 from "@/public/gallery/image42.webp";
 import image43 from "@/public/gallery/image43.webp";
 import image44 from "@/public/gallery/image44.webp";
-import image45 from "@/public/gallery/image45.JPG";
+// import image45 from "@/public/gallery/image45.JPG";
 import image46 from "@/public/gallery/image46.webp";
-import image47 from "@/public/gallery/image47.JPG";
+// import image47 from "@/public/gallery/image47.JPG";
 import image48 from "@/public/gallery/image48.webp";
-import image49 from "@/public/gallery/image49.JPG";
+// import image49 from "@/public/gallery/image49.JPG";
 import image50 from "@/public/gallery/image50.webp";
 import image51 from "@/public/gallery/image51.webp";
-import image52 from "@/public/gallery/image52.JPG";
+// import image52 from "@/public/gallery/image52.JPG";
 import image53 from "@/public/gallery/image53.webp";
-import image54 from "@/public/gallery/image54.JPG";
+// import image54 from "@/public/gallery/image54.JPG";
 import image55 from "@/public/gallery/image55.webp";
-import image56 from "@/public/gallery/image56.JPG";
+// import image56 from "@/public/gallery/image56.JPG";
 import image57 from "@/public/gallery/image57.webp";
-import image58 from "@/public/gallery/image58.JPG";
+// import image58 from "@/public/gallery/image58.JPG";
 import image59 from "@/public/gallery/image59.webp";
 import image60 from "@/public/gallery/image60.webp";
-import image61 from "@/public/gallery/image61.JPG";
+// import image61 from "@/public/gallery/image61.JPG";
 import image62 from "@/public/gallery/image62.webp";
 import image63 from "@/public/gallery/image63.webp";
-import image64 from "@/public/gallery/image64.JPG";
+// import image64 from "@/public/gallery/image64.JPG";
 import image65 from "@/public/gallery/image65.webp";
 import image66 from "@/public/gallery/image66.webp";
-import image67 from "@/public/gallery/image67.JPG";
+// import image67 from "@/public/gallery/image67.JPG";
 import image68 from "@/public/gallery/image68.webp";
 import image69 from "@/public/gallery/image69.webp";
-import image70 from "@/public/gallery/image70.JPG";
-import image71 from "@/public/gallery/image71.JPG";
+// import image70 from "@/public/gallery/image70.JPG";
+// import image71 from "@/public/gallery/image71.JPG";
 import image72 from "@/public/gallery/image72.webp";
-import image73 from "@/public/gallery/image73.JPG";
+// import image73 from "@/public/gallery/image73.JPG";
 import image74 from "@/public/gallery/image74.webp";
 import image75 from "@/public/gallery/image75.webp";
-import image76 from "@/public/gallery/image76.JPG";
+// import image76 from "@/public/gallery/image76.JPG";
 import image77 from "@/public/gallery/image77.webp";
 import image78 from "@/public/gallery/image78.webp";
 import image79 from "@/public/gallery/image79.webp";
 import image80 from "@/public/gallery/image80.webp";
-import image81 from "@/public/gallery/image81.JPG";
+// import image81 from "@/public/gallery/image81.JPG";
 import image82 from "@/public/gallery/image82.webp";
 import image83 from "@/public/gallery/image83.webp";
 import image84 from "@/public/gallery/image84.webp";
-import image85 from "@/public/gallery/image85.JPG";
-import image86 from "@/public/gallery/image86.JPG";
+// import image85 from "@/public/gallery/image85.JPG";
+// import image86 from "@/public/gallery/image86.JPG";
 import image87 from "@/public/gallery/image87.webp";
-import image88 from "@/public/gallery/image88.JPG";
+// import image88 from "@/public/gallery/image88.JPG";
 import image89 from "@/public/gallery/image89.webp";
-import image90 from "@/public/gallery/image90.JPG";
+// import image90 from "@/public/gallery/image90.JPG";
 import image91 from "@/public/gallery/image91.webp";
-import image92 from "@/public/gallery/image92.JPG";
-import image93 from "@/public/gallery/image93.JPG";
-import image94 from "@/public/gallery/image94.JPG";
-import image95 from "@/public/gallery/image95.JPG";
-import image96 from "@/public/gallery/image96.JPG";
-import image97 from "@/public/gallery/image97.JPG";
+// import image92 from "@/public/gallery/image92.JPG";
+// import image93 from "@/public/gallery/image93.JPG";
+// import image94 from "@/public/gallery/image94.JPG";
+// import image95 from "@/public/gallery/image95.JPG";
+// import image96 from "@/public/gallery/image96.JPG";
+// import image97 from "@/public/gallery/image97.JPG";
 import image98 from "@/public/gallery/image98.webp";
 import image99 from "@/public/gallery/image99.webp";
 import image100 from "@/public/gallery/image100.webp";
 import image101 from "@/public/gallery/image101.webp";
 import image102 from "@/public/gallery/image102.webp";
-import image103 from "@/public/gallery/image103.JPG";
-import image104 from "@/public/gallery/image104.JPG";
-import image105 from "@/public/gallery/image105.JPG";
+// import image103 from "@/public/gallery/image103.JPG";
+// import image104 from "@/public/gallery/image104.JPG";
+// import image105 from "@/public/gallery/image105.JPG";
 import image106 from "@/public/gallery/image106.webp";
-import image107 from "@/public/gallery/image107.JPG";
-import image108 from "@/public/gallery/image108.JPG";
-import image109 from "@/public/gallery/image109.JPG";
-import image110 from "@/public/gallery/image110.JPG";
-import image111 from "@/public/gallery/image111.JPG";
+// import image107 from "@/public/gallery/image107.JPG";
+// import image108 from "@/public/gallery/image108.JPG";
+// import image109 from "@/public/gallery/image109.JPG";
+// import image110 from "@/public/gallery/image110.JPG";
+// import image111 from "@/public/gallery/image111.JPG";
 import image112 from "@/public/gallery/image112.webp";
-import image113 from "@/public/gallery/image113.JPG";
-import image114 from "@/public/gallery/image114.JPG";
-import image115 from "@/public/gallery/image115.JPG";
-import image116 from "@/public/gallery/image116.JPG";
-import image117 from "@/public/gallery/image117.JPG";
-import image118 from "@/public/gallery/image118.JPG";
-import image119 from "@/public/gallery/image119.JPG";
+// import image113 from "@/public/gallery/image113.JPG";
+// import image114 from "@/public/gallery/image114.JPG";
+// import image115 from "@/public/gallery/image115.JPG";
+// import image116 from "@/public/gallery/image116.JPG";
+// import image117 from "@/public/gallery/image117.JPG";
+// import image118 from "@/public/gallery/image118.JPG";
+// import image119 from "@/public/gallery/image119.JPG";
 import image120 from "@/public/gallery/image120.webp";
-import image121 from "@/public/gallery/image121.JPG";
-import image122 from "@/public/gallery/image122.JPG";
-import image123 from "@/public/gallery/image123.JPG";
-import image124 from "@/public/gallery/image124.JPG";
-import image125 from "@/public/gallery/image125.JPG";
-import image127 from "@/public/gallery/image127.JPG";
-import image128 from "@/public/gallery/image128.JPG";
-import image129 from "@/public/gallery/image129.JPG";
-import image130 from "@/public/gallery/image130.JPG";
-import image131 from "@/public/gallery/image131.JPG";
-import image132 from "@/public/gallery/image132.JPG";
-import image133 from "@/public/gallery/image133.JPG";
-import image134 from "@/public/gallery/image134.JPG";
+// import image121 from "@/public/gallery/image121.JPG";
+// import image122 from "@/public/gallery/image122.JPG";
+// import image123 from "@/public/gallery/image123.JPG";
+// import image124 from "@/public/gallery/image124.JPG";
+// import image125 from "@/public/gallery/image125.JPG";
+// import image127 from "@/public/gallery/image127.JPG";
+// import image128 from "@/public/gallery/image128.JPG";
+// import image129 from "@/public/gallery/image129.JPG";
+// import image130 from "@/public/gallery/image130.JPG";
+// import image131 from "@/public/gallery/image131.JPG";
+// import image132 from "@/public/gallery/image132.JPG";
+// import image133 from "@/public/gallery/image133.JPG";
+// import image134 from "@/public/gallery/image134.JPG";
 import image135 from "@/public/gallery/image135.webp";
-import image136 from "@/public/gallery/image136.JPG";
+// import image136 from "@/public/gallery/image136.JPG";
 import image137 from "@/public/gallery/image137.webp";
 import image138 from "@/public/gallery/image138.webp";
 import image139 from "@/public/gallery/image139.webp";
@@ -203,33 +203,33 @@ import image204 from "@/public/gallery/image204.webp";
 import image205 from "@/public/gallery/image205.webp";
 import image206 from "@/public/gallery/image206.webp";
 import image207 from "@/public/gallery/image207.webp";
-import image214 from "@/public/gallery/image214.JPG";
-import image215 from "@/public/gallery/image215.JPG";
-import image216 from "@/public/gallery/image216.JPG";
+// import image214 from "@/public/gallery/image214.JPG";
+// import image215 from "@/public/gallery/image215.JPG";
+// import image216 from "@/public/gallery/image216.JPG";
 import image217 from "@/public/gallery/image217.webp";
-import image218 from "@/public/gallery/image218.JPG";
-import image219 from "@/public/gallery/image219.JPG";
-import image220 from "@/public/gallery/image220.JPG";
-import image221 from "@/public/gallery/image221.JPG";
-import image222 from "@/public/gallery/image222.JPG";
+// import image218 from "@/public/gallery/image218.JPG";
+// import image219 from "@/public/gallery/image219.JPG";
+// import image220 from "@/public/gallery/image220.JPG";
+// import image221 from "@/public/gallery/image221.JPG";
+// import image222 from "@/public/gallery/image222.JPG";
 import image223 from "@/public/gallery/image223.webp";
 import image224 from "@/public/gallery/image224.webp";
 import image225 from "@/public/gallery/image225.webp";
-import image226 from "@/public/gallery/image226.JPG";
-import image227 from "@/public/gallery/image227.JPG";
-import image228 from "@/public/gallery/image228.JPG";
+// import image226 from "@/public/gallery/image226.JPG";
+// import image227 from "@/public/gallery/image227.JPG";
+// import image228 from "@/public/gallery/image228.JPG";
 import image229 from "@/public/gallery/image229.webp";
 import image230 from "@/public/gallery/image230.webp";
-import image231 from "@/public/gallery/image231.JPG";
-import image232 from "@/public/gallery/image232.JPG";
-import image233 from "@/public/gallery/image233.JPG";
-import image234 from "@/public/gallery/image234.JPG";
-import image235 from "@/public/gallery/image235.JPG";
-import image236 from "@/public/gallery/image236.JPG";
-import image237 from "@/public/gallery/image237.JPG";
-import image238 from "@/public/gallery/image238.JPG";
-import image239 from "@/public/gallery/image239.JPG";
-import image240 from "@/public/gallery/image240.JPG";
+// import image231 from "@/public/gallery/image231.JPG";
+// import image232 from "@/public/gallery/image232.JPG";
+// import image233 from "@/public/gallery/image233.JPG";
+// import image234 from "@/public/gallery/image234.JPG";
+// import image235 from "@/public/gallery/image235.JPG";
+// import image236 from "@/public/gallery/image236.JPG";
+// import image237 from "@/public/gallery/image237.JPG";
+// import image238 from "@/public/gallery/image238.JPG";
+// import image239 from "@/public/gallery/image239.JPG";
+// import image240 from "@/public/gallery/image240.JPG";
 import image241 from "@/public/gallery/image241.webp";
 import image242 from "@/public/gallery/image242.webp";
 
@@ -243,9 +243,9 @@ type ImageProps = {
 
 const importedImages = [
   image1,
-  image2,
-  image3,
-  image4,
+  // image2,
+  // image3,
+  // image4,
   image8,
   image9,
   image10,
@@ -253,125 +253,125 @@ const importedImages = [
   image12,
   image13,
   image16,
-  image17,
+  // image17,
   image18,
-  image19,
+  // image19,
   image20,
-  image21,
+  // image21,
   image22,
-  image23,
-  image24,
+  // image23,
+  // image24,
   image25,
   image26,
-  image27,
-  image28,
+  // image27,
+  // image28,
   image29,
   image30,
-  image31,
-  image32,
+  // image31,
+  // image32,
   image33,
-  image34,
+  // image34,
   image35,
-  image36,
+  // image36,
   image37,
-  image38,
+  // image38,
   image39,
-  image40,
-  image41,
+  // image40,
+  // image41,
   image42,
   image43,
   image44,
-  image45,
+  // image45,
   image46,
-  image47,
+  // image47,
   image48,
-  image49,
+  // image49,
   image50,
   image51,
-  image52,
+  // image52,
   image53,
-  image54,
+  // image54,
   image55,
-  image56,
+  // image56,
   image57,
-  image58,
+  // image58,
   image59,
   image60,
-  image61,
+  // image61,
   image62,
   image63,
-  image64,
+  // image64,
   image65,
   image66,
-  image67,
+  // image67,
   image68,
   image69,
-  image70,
-  image71,
+  // image70,
+  // image71,
   image72,
-  image73,
+  // image73,
   image74,
   image75,
-  image76,
+  // image76,
   image77,
   image78,
   image79,
   image80,
-  image81,
+  // image81,
   image82,
   image83,
   image84,
-  image85,
-  image86,
+  // image85,
+  // image86,
   image87,
-  image88,
+  // image88,
   image89,
-  image90,
+  // image90,
   image91,
-  image92,
-  image93,
-  image94,
-  image95,
-  image96,
-  image97,
+  // image92,
+  // image93,
+  // image94,
+  // image95,
+  // image96,
+  // image97,
   image98,
   image99,
   image100,
   image101,
   image102,
-  image103,
-  image104,
-  image105,
+  // image103,
+  // image104,
+  // image105,
   image106,
-  image107,
-  image108,
-  image109,
-  image110,
-  image111,
+  // image107,
+  // image108,
+  // image109,
+  // image110,
+  // image111,
   image112,
-  image113,
-  image114,
-  image115,
-  image116,
-  image117,
-  image118,
-  image119,
+  // image113,
+  // image114,
+  // image115,
+  // image116,
+  // image117,
+  // image118,
+  // image119,
   image120,
-  image121,
-  image122,
-  image123,
-  image124,
-  image125,
-  image127,
-  image128,
-  image129,
-  image130,
-  image131,
-  image132,
-  image133,
-  image134,
+  // image121,
+  // image122,
+  // image123,
+  // image124,
+  // image125,
+  // image127,
+  // image128,
+  // image129,
+  // image130,
+  // image131,
+  // image132,
+  // image133,
+  // image134,
   image135,
-  image136,
+  // image136,
   image137,
   image138,
   image139,
@@ -440,33 +440,33 @@ const importedImages = [
   image205,
   image206,
   image207,
-  image214,
-  image215,
-  image216,
+  // image214,
+  // image215,
+  // image216,
   image217,
-  image218,
-  image219,
-  image220,
-  image221,
-  image222,
+  // image218,
+  // image219,
+  // image220,
+  // image221,
+  // image222,
   image223,
   image224,
   image225,
-  image226,
-  image227,
-  image228,
+  // image226,
+  // image227,
+  // image228,
   image229,
   image230,
-  image231,
-  image232,
-  image233,
-  image234,
-  image235,
-  image236,
-  image237,
-  image238,
-  image239,
-  image240,
+  // image231,
+  // image232,
+  // image233,
+  // image234,
+  // image235,
+  // image236,
+  // image237,
+  // image238,
+  // image239,
+  // image240,
   image241,
   image242,
 ];
