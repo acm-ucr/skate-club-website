@@ -50,7 +50,6 @@ export const metadata = {
   },
 };
 
-
 type LayoutProps = {
   children: React.ReactNode;
 };
